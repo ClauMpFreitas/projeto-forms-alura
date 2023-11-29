@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# projeto-forms-alura
+Projeto realizado pelo curso da Alura. É um formulário criado com o Create React App. Utiliza componentes do Material UI, como por exemplo, o stepper, que te guia pelas abas do formulário. Possui também validação de senha e de cpf, utilizando das ferramentas do React Hooks
+>>>>>>> 965e33c007bf2fdd42fa07c9a803d11ec6e0073c
