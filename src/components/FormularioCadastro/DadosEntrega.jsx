@@ -5,13 +5,14 @@ function DadosEntrega({ aoEnviar }) {
   const [cep, setCep] = useState("");
   const [endereco, setEndereco] = useState("");
   const [numero, setNumero] = useState("");
+  const [bairro, setBairro] = useState("");
   const [estado, setEstado] = useState("");
   const [cidade, setCidade] = useState("");
   return (
     <form
       onSubmit={(event) => {
         event.preventDefault();
-        aoEnviar({ cep, endereco, numero, estado, cidade });
+        aoEnviar({ cep, endereco, numero, bairro, estado, cidade });
       }}
     >
       <TextField
@@ -48,6 +49,18 @@ function DadosEntrega({ aoEnviar }) {
         label="Número"
         name="numero"
         type="number"
+        variant="outlined"
+        margin="normal"
+      />
+      <TextField
+        value={bairro}
+        onChange={(event) => {
+          setBairro(event.target.value);
+        }}
+        id="bairro"
+        label="Bairro"
+        name="bairro"
+        type="text"
         variant="outlined"
         margin="normal"
       />
